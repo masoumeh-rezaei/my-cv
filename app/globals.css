@@ -1,26 +1,48 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@custom-variant dark (&:where(.dark, .dark *));
+@theme{
+  --color-dark-bg:'#282f44'
 }
+.slider-text-section{
+  position: absolute;
+  font-size: 50vh;
+  bottom: -120px;
+  word-wrap: break-word;
+  white-space: nowrap;
+  color: #ffffff09;
+  width: 50%;
+  font-weight: bold;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.proj-imgbx::before {
+  content: "";
+  background: #906387;
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease-in-out;
+  z-index: 2;
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.proj-imgbx:hover::before {
+  height: 100%;
+}
+.proj-txtx {
+ 
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  width: 100%;
+}
+.proj-imgbx:hover .proj-txtx {
+  top: 50%;
+  opacity: 1;
+  z-index: 5;
+}
+@theme{
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 70rem;
+  --breakpoint-2xl: 76rem;  
 }

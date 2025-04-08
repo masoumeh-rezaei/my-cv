@@ -66,7 +66,7 @@ const About = () => {
                         </div>
                         </Link>
                         
-                        <Link href={'https://github.com/dashboard'} target="-blank">
+                        <Link href={'https://github.com/masoumeh-rezaei'} target="-blank">
                         <div className="group text-[#9ad1aa] cursor-pointer">
                            <div className="flex justify-center items-center gap-x-2 p-2 rounded-md border border-[#9ad1aa] h-10 w-23 cursor-pointer 
                             transition-transform duration-300 hover:scale-110 hover:rotate-6 hover:border-lime-500

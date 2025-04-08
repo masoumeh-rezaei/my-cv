@@ -48,11 +48,12 @@ const MobileNav = ({showMenue}) => {
     
     return (
         <div>
-            <div className={`${showMenue ? 'left-0' : '-left-[100%]'} h-screen text-white  sm:w-[40%]  w-[75%] bg-gradient-to-r from-[#282f44] to-[#634258] fixed top-0  transition-all duration-500 pt-24 pb-6 px-8 flex flex-col justify-between  z-25 lg:hidden`}>
+            <div className={`${showMenue ? 'left-0' : '-left-[100%]'} h-screen text-white  sm:w-[40%]  w-[75%] bg-gradient-to-r from-[#282f44] to-[#634258] fixed top-0  transition-all duration-500 pt-24 pb-6 px-8 flex flex-col justify-between  z-[9999] `}>
             <div>
                
-                <nav className=" my-auto">
-                    {
+                <nav className="my-auto">
+                   <ul>
+                   {
                         menues.map(menu=>(
                             <li key={menu.id} className={`group relative hover:bg-[#906387] w-full transition-all duration-700 py-3 rounded-md pl-2 hover:text-white  list-none ${pathName == menu.link ? 'bg-[#906387]': 'bg-transparent'  } `}>
                                 <Link href={menu.link} className="flex gap-4"><span>{menu.icon}</span> <span>{menu.name}</span></Link>
@@ -64,6 +65,7 @@ const MobileNav = ({showMenue}) => {
                             
                         ))
                     }
+                   </ul>
                 </nav>
             </div>
             <div className="footer">

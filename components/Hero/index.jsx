@@ -7,18 +7,19 @@ import { animate, motion } from "framer-motion";
 import Button from "../button";
 import Socials from "../socials";
 const Hero = () => {
+    console.log("Hero rendered")
      const sliderVarient={
         initial:{
             x:0,
             
         },
         animate:{
-            x:'-220%',
+            x:'-50%',
             opacity:1,
             transition:{
                 repeat:Infinity,
                 repeatType:'mirror',
-                duration:20,
+                duration:10,
                 
             }
 
@@ -26,9 +27,9 @@ const Hero = () => {
      }
     return (
         <>
-            <div className="pt-[100px]  bg-gradient-to-r from-[#282f44] to-[#634258] min-h-screen overflow-x-hidden overflow-y-hidden max-h-[100%]">
-                <div className="container mx-auto">
-                    <div className="flex lg:flex-row flex-col justify-center items-center lg:justify-around lg:items-center ">
+            <div className="pt-[100px]  bg-gradient-to-r from-[#282f44] to-[#634258] h-screen  overflow-hidden   max-w-screen ">
+                <div className="container mx-auto overflow-hidden">
+                    <div className="flex lg:flex-row flex-col justify-center items-center lg:justify-around lg:items-center overflow-hidden ">
                         {/* content sec */}
                         <div className="order-2 lg:order-1 flex flex-col items-center text-center">
                             <div className="flex items-center justify-center flex-col gap-10 mx-auto w-full">
@@ -42,7 +43,7 @@ const Hero = () => {
                     strings={[
                         "Frontend Developer",
                         "UI/UX Designer",
-                        "Freelancer",
+                        
                     ]}
                     typeSpeed={100}
                     backSpeed={50}
@@ -60,15 +61,15 @@ const Hero = () => {
                                 <Socials className='my-5'/>
                             </div>
                             </div>
-                            <div className="bg-gradient-to-r from-[#282f44] to-[#634258]">
+                            <div className="bg-gradient-to-r from-[#282f44] to-[#634258] p-0 m-0 overflow-hidden hidden lg:block">
                             <motion.div 
-    className="slider-text-section justify-start z-10"
+    className="slider-text-section justify-start z-10 p-0 m-0 max-w-full  overflow-hidden"
     draggable='false'
     variants={sliderVarient} 
     initial="initial" 
     animate="animate"
 >
-    Teacher Web Designer Freelancer
+     Web Designer 
 </motion.div>
                             </div>
                     
@@ -89,6 +90,7 @@ const Hero = () => {
                             width={400}
                             height={400}
                             alt="Profile"
+                            priority='true'
                             className="rounded-full border-4  shadow-lg w-[300px] md:w-[400px] "
                         />
 

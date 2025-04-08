@@ -20,7 +20,7 @@ const Socials = ({className}) => {
     </div>
     </Link>
     
-    <Link href={'https://github.com/dashboard'} target="-blank">
+    <Link href={'https://github.com/masoumeh-rezaei'} target="-blank">
     <div className="group text-[#9ad1aa]">
         <FaGithub className="p-2 rounded-full border border-[#9ad1aa] h-9 w-9 cursor-pointer 
         transition-transform duration-300 hover:scale-110 hover:rotate-6 hover:border-blue-600 

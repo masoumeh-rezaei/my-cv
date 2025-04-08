@@ -72,17 +72,17 @@ const menues = [
 
     return (
         <>
-            <div className=" dark:bg-black  bg-gradient-to-r from-[#282f44] to-[#634258] justify-between  overflow-x-hidden w-full fixed z-50">
-               <div className="mx-auto flex flex-row justify-between lg:py-5 px-4 py-3">
+            <div className="  bg-gradient-to-r from-[#282f44] to-[#634258] justify-between  overflow-x-hidden min-w-screen fixed z-50">
+               <div className="mx-auto flex flex-row justify-between lg:py-5 px-4 py-3  ">
                     {/*Logo*/}
-                    <div className="flex font-bold bg-clip-text text-transparent bg-gradient-to-b from-purple-50 to-violet-500">
+                    <div className=" flex font-bold bg-clip-text text-transparent bg-gradient-to-b from-purple-50 to-violet-500">
                         <p className=" text-3xl">Masoumeh</p>
                         <small>Rezaei</small>
                     </div>
                     {/*nav sec */}
-                    <div>
+                    <div className="lg:flex gap-4  z-50  ">
                         
-                        <ul className="hidden lg:flex  lg:justify-center lg:items-center  ">
+                        <ul className="hidden lg:flex  lg:justify-center lg:items-center z-50 ">
                             {
                                 menues.map((menu)=>(
                                     <li key={menu.id} className=" flex justify-center items-center flex-row">
@@ -143,7 +143,7 @@ const menues = [
                         
                     </div>
                     {/*mobile section */}
-                        <div className="flex gap-4 lg:hidden ">
+                        <div className="flex gap-4 lg:hidden z-50">
                         <div className="text-[#9ad1aa] border-2 rounded-full m-2 transition-all duration-300 hover:border-[#63b98a] hover:shadow-lg hover:scale-110  ">
   {theme === "dark" ? (
     <svg
@@ -198,11 +198,12 @@ const menues = [
                             )
                         }
                     </div>
+                    <MobileNav showMenue={showMenue}/>
                         </div>
                 
                </div>
             </div>
-            <MobileNav showMenue={showMenue}/>
+            
         </>
     );
 }

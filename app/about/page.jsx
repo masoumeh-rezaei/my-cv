@@ -26,7 +26,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex lg:flex-row flex-col justify-center items-center lg:justify-between lg:items-center lg:mt-2 mt-10 " >
+                <div className="flex lg:flex-row flex-col justify-center items-center lg:justify-between lg:items-center lg:mt-2 mt-10 m-4" >
                     <div>
                         <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-purple-50 to-violet-500 block pb-2 lg:text-left text-center">Education</h1>
                         <div className="mb-10">
@@ -46,17 +46,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="flex space-x-3 mb-4">
-                        <Link href={''}>
-                        <div className="group text-[#9ad1aa]  cursor-pointer">
-                           <div className="flex justify-center items-center gap-x-2 p-2 rounded-md border border-[#9ad1aa] h-10 w-23 cursor-pointer 
-                            transition-transform duration-300 hover:scale-110 hover:rotate-6 hover:border-pink-500 
-                            group-hover:shadow-lg group-hover:shadow-pink-500/50">
-                           <FaVoicemail/><h1 className="">Email</h1>
-                           </div>
-                        </div>
-                        </Link>
                         
-                        <Link href={''}>
+                        
+                        <Link href={'https://www.linkedin.com/in/masomeh-rezaei-b597b5285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }target="-blank">
                         <div className="group text-[#9ad1aa]  cursor-pointer">
                            <div className="flex justify-center items-center gap-x-2 p-2 rounded-md border border-[#9ad1aa] h-10 w-23 cursor-pointer 
                             transition-transform duration-300 hover:scale-110 hover:rotate-6 hover:border-blue-500 

@@ -107,7 +107,7 @@ const projects = () => {
     ]
     return (
         <div>
-            <div className="bg-gradient-to-r from-[#282f44] to-[#634258] pt-20">
+            <div className="bg-gradient-to-r from-[#282f44] to-[#634258] pt-20 pb-10 lg:pb-20 h-full mb-0">
                 <div className="container mx-auto">
                     <div>
                         <h1 className=" text-center font-semibold bg-clip-text text-transparent bg-gradient-to-b from-[#9ad1aa] from-40% to-violet-500 md:text-5xl text-4xl">My Projects</h1>

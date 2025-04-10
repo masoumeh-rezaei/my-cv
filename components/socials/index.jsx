@@ -4,7 +4,7 @@ const Socials = ({className}) => {
     return (
         <div className={`z-20 ${className}`}>
             <div className="flex space-x-3 mb-4">
-    <Link href={''}>
+    <Link href={'https://www.instagram.com/msmh_rzaei?igsh=dnc3OHAwdGkxMjk2'}target="-blank">
     <div className="group text-[#9ad1aa]">
         <FaInstagram className="p-2 rounded-full border border-[#9ad1aa] h-9 w-9 cursor-pointer 
         transition-transform duration-300 hover:scale-110 hover:rotate-6 hover:border-pink-500 
@@ -12,7 +12,7 @@ const Socials = ({className}) => {
     </div>
     </Link>
     
-    <Link href={''}>
+    <Link href={'https://www.linkedin.com/in/masomeh-rezaei-b597b5285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} target="-blank">
     <div className="group text-[#9ad1aa]">
         <FaLinkedinIn className="p-2 rounded-full border border-[#9ad1aa] h-9 w-9 cursor-pointer 
         transition-transform duration-300 hover:scale-110 hover:rotate-6 hover:border-blue-500 

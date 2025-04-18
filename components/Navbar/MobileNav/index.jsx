@@ -1,7 +1,19 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-const MobileNav = ({showMenue}) => {
+const MobileNav = ({showMenue,setShowMenue}) => {
     const pathName = usePathname()
+    const handleLinkClick = () => {
+        setShowMenue(false); 
+      };
+    
+      const handleBackdropClick = () => {
+        setShowMenue(false); 
+      };
+    
+      const handleMenuClick = (e) => {
+        e.stopPropagation();
+      };
+      
     const menues = [
         {
             id: 1,
@@ -47,34 +59,43 @@ const MobileNav = ({showMenue}) => {
     ];
     
     return (
-        <div>
-            <div className={`${showMenue ? 'left-0' : '-left-[100%]'} h-screen text-white  sm:w-[40%]  w-[75%] bg-gradient-to-r from-[#282f44] to-[#634258] fixed top-0  transition-all duration-500 pt-24 pb-6 px-8 flex flex-col justify-between  z-[9999] `}>
-            <div>
-               
-                <nav className="my-auto">
-                   <ul>
-                   {
-                        menues.map(menu=>(
-                            <li key={menu.id} className={`group relative hover:bg-[#906387] w-full transition-all duration-700 py-3 rounded-md pl-2 hover:text-white  list-none ${pathName == menu.link ? 'bg-[#906387]': 'bg-transparent'  } `}>
-                                <Link href={menu.link} className="flex gap-4"><span>{menu.icon}</span> <span>{menu.name}</span></Link>
-                                <span className="absolute  size-3 top-0 right-0 hidden group-hover:flex transition-all duration-500">
-                                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-slate-500 opacity-75"></span>
-                                <span className="relative inline-flex size-3 rounded-full bg-slate-400"></span>
-                            </span>
-                            </li>
-                            
-                        ))
-                    }
-                   </ul>
-                </nav>
-            </div>
+        <>
+          {showMenue && (
+            <div
+              className="fixed top-0 left-0 w-full h-screen bg-black/40 z-[9998]"
+              onClick={handleBackdropClick}
+            ></div>
+          )}
+          <div
+            onClick={handleMenuClick}
+            className={`${showMenue ? 'left-0' : '-left-[100%]'} 
+            fixed top-0 h-screen text-white sm:w-[40%] w-[75%] 
+            bg-gradient-to-r from-[#282f44] to-[#634258] transition-all 
+            duration-500 pt-24 pb-6 px-8 flex flex-col justify-between 
+            z-[9999]`}
+          >
+            <nav>
+              <ul>
+                {menues.map((menu) => (
+                  <li
+                    key={menu.id}
+                    className={`group relative hover:bg-[#906387] w-full transition-all duration-700 py-3 rounded-md pl-2 hover:text-white ${
+                      pathName === menu.link ? 'bg-[#906387]' : 'bg-transparent'
+                    }`}
+                  >
+                    <Link href={menu.link} onClick={handleLinkClick} className="flex gap-4">
+                      <span>{menu.icon}</span> <span>{menu.name}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
             <div className="footer">
-                <h1>@2024 All right Reserved By Masomeh</h1>
+              <h1>@2024 All right Reserved By Masomeh</h1>
             </div>
-
-        </div>
-        </div>
-    );
-}
+          </div>
+        </>
+      );
+    };
 
 export default MobileNav;

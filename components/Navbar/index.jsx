@@ -198,7 +198,7 @@ const menues = [
                             )
                         }
                     </div>
-                    <MobileNav showMenue={showMenue}/>
+                    <MobileNav showMenue={showMenue} setShowMenue={setShowMenue}/>
                         </div>
                 
                </div>

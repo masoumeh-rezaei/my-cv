@@ -106,7 +106,7 @@ const Skills = () => {
         
     ]
     return (
-        <div className="bg-gradient-to-r from-[#282f44] to-[#634258]">
+        <div className="bg-gradient-to-r from-[#282f44] to-[#634258]" id="skills">
             <div className="container mx-auto pt-30 pl-5 sm:pl-0">
                 <h1 className=" text-center sm:text-5xl text-4xl  font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#9ad1aa] from-40% to-violet-500">Skills & Experinces</h1>
                 <div className="flex flex-row flex-wrap justify-center items-center gap-5 mt-10">

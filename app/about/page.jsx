@@ -7,7 +7,7 @@ const About = () => {
     
     return (
         <div>
-            <div className="min-h-screen max-h-[100%] bg-gradient-to-r from-[#282f44] to-[#634258] pt-20">
+            <div className="min-h-screen max-h-[100%] bg-gradient-to-r from-[#282f44] to-[#634258] pt-20" id="about">
                 <div className="container mx-auto">
                     <div className="flex lg:flex-row flex-col justify-center items-center lg:justify-between lg:items-center">
                         {/* content sec */}

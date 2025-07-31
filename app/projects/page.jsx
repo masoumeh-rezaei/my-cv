@@ -3,11 +3,39 @@ import imgPortfilo from '../../public/Images/project.portfilo.png'
 import imgResturant from '../../public/Images/projectResturant2.png'
 import imgTodo from '../../public/Images/project.todo.png'
 import imgExpensse from '../../public/Images/project.expensse.png'
+import OCR from '../../public/Images/Screenshot 2025-07-30 131108.png'
 import imgCar from '../../public/Images/project-.png'
 import Image from 'next/image'
 import Link from 'next/link'
 const projects = () => {
     const projectData=[
+        {
+            id:0,
+            img:OCR,
+            name:'OCR Project',
+            tools:[
+                {
+                    id:1,
+                    name:'Next',
+                },
+                {
+                    id:2,
+                    name:'TailwindCss',
+                },
+                {
+                    id:3,
+                    name:'react query',
+                },
+                {
+                    id:4,
+                    name:'react form & Zod',
+                },
+
+            ],
+            githubLink:'https://github.com/masoumeh-rezaei/OCR',
+            projectLink:'https://ocr-project-delta.vercel.app/',
+
+        },
         {
             id:1,
             img:imgPortfilo,

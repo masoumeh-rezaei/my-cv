@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
    <>
-    <div className="dark:bg-gradient-to-r  from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E]  overflow-hidden ">
+    <div className="bg-gradient-to-r  from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E]  overflow-hidden ">
     
     <Hero />
     <Skills/>

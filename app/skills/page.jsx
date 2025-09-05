@@ -83,6 +83,15 @@ const Skills = () => {
         },
         {
             id:9,
+            name:'SEO',
+            desc:'SEO, or Search Engine Optimization, is the practice of optimizing a website to increase its visibility and rank higher in search engine results',
+            icon:(<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" >
+                    <path d="M12 12.5805H10.871V10.3547H12V12.5805ZM22 8.12891V14.7741H12V15.8708H7.54839V14.7418H2V8.12891H22ZM7.54839 9.19342H3.09677V13.645H5.32258V10.3547H6.45161V13.7096H7.58064L7.54839 9.19342ZM13.129 9.19342H8.67742V14.7418H10.9032V13.6128H13.129V9.19342ZM20.871 9.19342H14.2258V13.645H16.4516V10.3547H17.5806V13.7096H18.7097V10.3547H19.8387V13.7096H20.9677V9.19342H20.871Z" fill="#323544"/>
+                </svg>
+            )
+        },
+        {
+            id:10,
             name:'npm',
             desc:'Taking advantage of node package manager in react.js / next.js projects to implement famous react libraries. Some of them includes react-select, react',
             icon:(<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" >
@@ -91,7 +100,7 @@ const Skills = () => {
                 )
         },
         {
-            id:10,
+            id:11,
             name:'JavaScript',
             desc:'The Programming Language for the Web that can calculate, manipulate and validate data.',
             icon:(<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" >
@@ -100,12 +109,12 @@ const Skills = () => {
                 )
         },
         {
-            id:11,
+            id:12,
             name:'Teaching',
             desc:'tutering both private and grouped class'
         },
         {
-            id:12,
+            id:13,
             name:'ICDL',
             desc:'I have passes the ICDL course in Mojtameh Fani Enqelab'
         },

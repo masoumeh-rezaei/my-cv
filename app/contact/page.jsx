@@ -11,9 +11,9 @@ export default function ContactPage() {
     const whatsappLink =`https://wa.me/${phoneNumber}?text=${message}`;
 
     return (
-        <div className="mb-0 pb-0">
-            <h1 className="text-4xl mt-30 mb-0 m-auto font-bold bg-clip-text text-transparent bg-gradient-to-b from-purple-50 to-violet-500 block pb-2  text-center">Contact Me</h1>
-            <div className="min-h-screen flex lg:flex-row flex-col  items-center justify-between p-6 md:p-5 bg-gradient-to-r from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E]  mt-0 pt-0">
+        <div className=" bg-gradient-to-r from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E] pt-30">
+            <h1 className="text-4xl  mb-0 m-auto font-bold bg-clip-text text-transparent bg-gradient-to-b from-purple-50 to-violet-500 block pb-2  text-center">Contact Me</h1>
+            <div className="min-h-screen flex lg:flex-row flex-col  items-center justify-between p-6 md:p-5  mt-0 pt-0">
 
 
 

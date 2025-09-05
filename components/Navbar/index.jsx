@@ -107,7 +107,7 @@ const menues = [
                         
                     </div>
                     {/*mobile section */}
-                        <div className="flex gap-4 lg:hidden z-50">
+                        <div className="flex gap-4 lg:hidden items-center justify-center z-50">
                       <DarkModeToggle/>
                     <div className=" hover:rotate-6 flex items-center gap-4 lg:hidden text-[#9ad1aa] border-2 rounded-full m-2 transition-all duration-300 hover:border-[#63b98a] hover:shadow-lg hover:scale-110">
                     {

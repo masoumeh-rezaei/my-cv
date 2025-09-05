@@ -145,7 +145,8 @@ const projects = () => {
                         <ul className='flex flex-col md:flex-row flex-wrap gap-5 justify-center items-center pt-5 md:pt-10'>
                             {
                                 projectData.map((data)=>(
-                                    <li key={data.id} className='bg-[#3e3245] p-3 rounded-2xl w-[90%] md:w-auto '>
+                                    <li key={data.id} className='bg-[#3e3245] p-3 rounded-2xl w-[90%] md:w-90  ' data-aos="zoom-in">
+
                                         <div className='proj-imgbx overflow-hidden relative rounded-md'>
                                             <Image src={data.img} width={350} height={100} alt='image' className='  w-full md:w-[350px] h-[200px] object-cover object-top rounded-md cursor-pointer ' />
                                             <Link href={data.projectLink} target='-blank'>

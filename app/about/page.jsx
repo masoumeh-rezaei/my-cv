@@ -12,7 +12,7 @@ const About = () => {
                     <div className="flex lg:flex-row flex-col justify-center items-center lg:justify-between lg:items-center">
                         {/* content sec */}
                                                 <div className="order-2 lg:order-1   ">
-                                                    <div className="flex  items-center justify-center flex-col gap-10 mx-auto   lg:justify-start lg:items-start w-[80%] m-auto ">
+                                                    <div className="flex  items-center justify-center flex-col gap-10 mx-auto   lg:justify-start lg:items-start w-[80%] lg:ml-0 ">
                                                         <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-purple-50 to-violet-500 lg:block hidden"><span className="text-slate-300">About</span> Masoumeh</h1>
                                                         <p className="text-slate-300 text-center lg:text-left">A Detailed-oriented 20-year-old Front End Developer with a year experience in this field, working with HTML , CSS , JavaScript , React and Next.js and 5 years experience of being in a collaborative place as a teacher. highly adapted at both independent and collaborative projects ,with an emphasis on landing website developement . </p>
                                                    
@@ -26,11 +26,11 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex lg:flex-row flex-col justify-center items-center lg:justify-between lg:items-center lg:mt-2 mt-10 m-4" >
+                <div className="flex lg:flex-row flex-col justify-center items-center lg:justify-between lg:items-center lg:mt-2 mt-10 m-4 lg:ml-0" >
                     <div>
                         <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-purple-50 to-violet-500 block pb-2 lg:text-left text-center">Education</h1>
-                        <div className="mb-10">
-                            <div className="border border-[#9ad1aa] text-slate-300 p-2">
+                        <div className="mb-10 lg:ml-0">
+                            <div className="border border-[#9ad1aa] text-slate-300 p-2 ml-0">
                                 <div className="flex flex-col gap-y-2">
                                     <h1 className="text-xl text-slate-400">Bachelor degree in computer software engeneering</h1>
                                     <h3 className="text-md text-blue-300">Tehran Jonob University</h3>

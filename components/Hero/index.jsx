@@ -33,7 +33,7 @@ const Hero = () => {
                         {/* content sec */}
                         <div className="order-2 lg:order-1 flex flex-col items-center text-center">
                             <div className="flex items-center justify-center flex-col gap-10 mx-auto w-full">
-                                <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-purple-50 to-violet-500">Maoumeh Reazaei</h1>
+                                <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-purple-50 to-violet-500">Masoumeh Reazaei</h1>
                             <div className="relative w-full  flex items-center justify-start">
     <h2 className="text-3xl text-white flex items-center">
         I`m a 

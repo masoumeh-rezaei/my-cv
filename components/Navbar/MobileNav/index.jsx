@@ -80,12 +80,13 @@ const MobileNav = ({showMenue,setShowMenue}) => {
             onClick={handleMenuClick}
             className={`${showMenue ? 'left-0' : '-left-[100%]'} 
             fixed top-0 h-screen text-white sm:w-[40%] w-[75%] 
-            bg-gradient-to-r from-[#282f44] to-[#634258] transition-all 
+            bg-gradient-to-r from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E] transition-all 
             duration-500 pt-24 pb-6 px-8 flex flex-col justify-between 
             z-[9999]`}
           >
             <nav>
               <ul>
+
                 {menues.map((menu) => (
                   <li
                     key={menu.id}

@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         Aos.refresh();
     })
   return (
-    <html lang="en">
+    <html lang="en" >
       <body className="overflow-x-hidden">
         <Navbar/>
         

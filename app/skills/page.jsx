@@ -115,13 +115,13 @@ const Skills = () => {
         
     ]
     return (
-        <div className="bg-gradient-to-r from-[#282f44] to-[#634258]" id="skills">
+        <div className="bg-gradient-to-r from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E]" id="skills">
             <div className="container mx-auto pt-30 pl-5 sm:pl-0" >
                 <h1 className=" text-center sm:text-5xl text-4xl  font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#9ad1aa] from-40% to-violet-500">Skills & Experinces</h1>
                 <div className="flex flex-row flex-wrap justify-center items-center gap-5 mt-10" >
-                    <div className=" bg-gradient-to-br from-[#282f44] to-[#634258] p-5  md:w-4/12 lg:w-[23%] rounded-md hover:shadow-xl transition flex flex-col justify-center items-center shadow-md w-[90%]" data-aos="fade-down-right"><Image draggable="false" alt="JavaScript" loading="lazy" width="150" height="150" decoding="async" data-nimg="1" className="drop-shadow-md" src={js} style={{color: 'transparent'}}/><h5 className="mt-10 text-gray-300 text-3xl">JavaScript</h5></div>
-                    <div className=" bg-gradient-to-br from-[#282f44] to-[#634258] p-5 w-[90%] md:w-4/12 lg:w-[23%] rounded-md hover:shadow-xl transition flex flex-col justify-center items-center shadow-md" ><Image draggable="false" alt="React" loading="lazy" width="150" height="150" decoding="async" data-nimg="1" className="drop-shadow-md" src={react} style={{color: 'transparent'}}/><h5 className="mt-10 text-gray-300 text-3xl">React</h5></div>
-                    <div className=" bg-gradient-to-br from-[#282f44] to-[#634258] p-5 w-[90%] md:w-4/12 lg:w-[23%] rounded-md hover:shadow-xl transition flex flex-col justify-center items-center shadow-md" data-aos="fade-down-left"><Image draggable="false" alt="NextJs" loading="lazy" width="150" height="150" decoding="async" data-nimg="1" className="drop-shadow-md" src={nextjs} style={{color: 'transparent'}}/><h5 className="mt-10 text-gray-300 text-3xl">NextJs</h5></div>
+                    <div className=" bg-gradient-to-br from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E] p-5  md:w-4/12 lg:w-[23%] rounded-md hover:shadow-xl transition flex flex-col justify-center items-center shadow-md w-[90%]" data-aos="fade-down-right"><Image draggable="false" alt="JavaScript" loading="lazy" width="150" height="150" decoding="async" data-nimg="1" className="drop-shadow-md" src={js} style={{color: 'transparent'}}/><h5 className="mt-10 text-gray-300 text-3xl">JavaScript</h5></div>
+                    <div className=" bg-gradient-to-br from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E] p-5 w-[90%] md:w-4/12 lg:w-[23%] rounded-md hover:shadow-xl transition flex flex-col justify-center items-center shadow-md" ><Image draggable="false" alt="React" loading="lazy" width="150" height="150" decoding="async" data-nimg="1" className="drop-shadow-md" src={react} style={{color: 'transparent'}}/><h5 className="mt-10 text-gray-300 text-3xl">React</h5></div>
+                    <div className=" bg-gradient-to-br from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E] p-5 w-[90%] md:w-4/12 lg:w-[23%] rounded-md hover:shadow-xl transition flex flex-col justify-center items-center shadow-md" data-aos="fade-down-left"><Image draggable="false" alt="NextJs" loading="lazy" width="150" height="150" decoding="async" data-nimg="1" className="drop-shadow-md" src={nextjs} style={{color: 'transparent'}}/><h5 className="mt-10 text-gray-300 text-3xl">NextJs</h5></div>
                     
                     </div>
 
@@ -140,7 +140,7 @@ const Skills = () => {
                                                            transition-all duration-500 ease-in-out 
                                                            before:content-[''] before:absolute before:top-[-0.4rem] before:w-4 before:h-4 
                                                            before:bg-[#9ad1aa] before:rounded-full before:left-[-1.5rem] sm:-ml-9 md:-ml-13 -ml-5
-                                                           bg-gradient-to-br from-[#282f44] to-[#634258] shadow-lg shadow-[#00000055] 
+                                                           bg-gradient-to-br from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E] shadow-lg shadow-[#00000055]
                                                            hover:shadow-2xl 
                                                            hover:scale-105 
                                                            hover:before:bg-white"
@@ -168,7 +168,7 @@ const Skills = () => {
                                                            transition-all duration-500 ease-in-out 
                                                            before:content-[''] before:absolute before:top-[-0.4rem] before:w-4 before:h-4 
                                                            before:bg-[#9ad1aa] before:rounded-full before:left-[-1.5rem] sm:-ml-9 md:-ml-13 -ml-5
-                                                           bg-gradient-to-br from-[#282f44] to-[#634258] shadow-lg shadow-[#00000055] 
+                                                           bg-gradient-to-br from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E] shadow-lg shadow-[#00000055]
                                                            hover:shadow-2xl 
                                                            hover:scale-105 
                                                            hover:before:bg-white"

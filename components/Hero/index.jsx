@@ -27,7 +27,7 @@ const Hero = () => {
      }
     return (
         <>
-            <div className="pt-[100px]  bg-gradient-to-r from-[#282f44] to-[#634258] h-screen  overflow-hidden   max-w-screen ">
+            <div className="pt-[100px] bg-gradient-to-r  from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E] h-screen  overflow-hidden   max-w-screen ">
                 <div className="container mx-auto overflow-hidden">
                     <div className="flex lg:flex-row flex-col justify-center items-center lg:justify-around lg:items-center overflow-hidden ">
                         {/* content sec */}

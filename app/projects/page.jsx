@@ -135,7 +135,7 @@ const projects = () => {
     ]
     return (
         <div>
-            <div className="bg-gradient-to-r from-[#282f44] to-[#634258] pt-20 pb-10 lg:pb-20 h-full mb-0" id='projects'>
+            <div className="bg-gradient-to-r from-[#282f44] to-[#634258] dark:from-[#1A1A1D] dark:to-[#37353E] pt-20 pb-10 lg:pb-20 h-full mb-0" id='projects'>
                 <div className="container mx-auto">
                     <div>
                         <h1 className=" text-center font-semibold bg-clip-text text-transparent bg-gradient-to-b from-[#9ad1aa] from-40% to-violet-500 md:text-5xl text-4xl">My Projects</h1>
@@ -145,7 +145,7 @@ const projects = () => {
                         <ul className='flex flex-col md:flex-row flex-wrap gap-5 justify-center items-center pt-5 md:pt-10'>
                             {
                                 projectData.map((data)=>(
-                                    <li key={data.id} className='bg-[#3e3245] p-3 rounded-2xl w-[90%] md:w-90  ' data-aos="zoom-in">
+                                    <li key={data.id} className='bg-[#3e3245] dark:bg-[#1A1A1D]  p-3 rounded-2xl w-[90%] md:w-90  ' data-aos="zoom-in">
 
                                         <div className='proj-imgbx overflow-hidden relative rounded-md'>
                                             <Image src={data.img} width={350} height={100} alt='image' className='  w-full md:w-[350px] h-[200px] object-cover object-top rounded-md cursor-pointer ' />

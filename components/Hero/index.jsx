@@ -69,7 +69,7 @@ const Hero = () => {
     initial="initial" 
     animate="animate"
 >
-     Web Designer 
+     Front Developer
 </motion.div>
                             </div>
                     

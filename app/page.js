@@ -5,6 +5,7 @@ import Skills from "./skills/page";
 import Projects from "./projects/page";
 import About from "./about/page";
 import React from "react";
+import ContactPage from "@/app/contact/page";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
     <Skills/>
     <Projects/>
     <About/>
+      <ContactPage/>
     </div>
    </>
   );

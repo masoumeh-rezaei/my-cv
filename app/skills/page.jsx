@@ -134,7 +134,7 @@ const Skills = () => {
                                             skillsData.slice(0, Math.ceil(skillsData.length / 2)).map((data) => (
                                                 <li 
                                                 key={data.id}
-                                                data-aos="zoom-in"
+
                                                 className="w-[90%] border-2 border-transparent my-6 lg:mx-3 mt-0 lg:h-30 h-40 
                                                            flex justify-center flex-col px-3 relative rounded-md 
                                                            transition-all duration-500 ease-in-out 
@@ -161,7 +161,7 @@ const Skills = () => {
                                             { 
                                             skillsData.slice( Math.ceil(skillsData.length / 2)).map((data) => (
                                                 <li
-                                                    data-aos="zoom-in"
+
                                                 key={data.id} 
                                                 className="w-[90%] border-2 border-transparent my-6 lg:mx-3 mt-0 lg:h-30 h-40 
                                                            flex justify-center flex-col px-3 relative rounded-md 

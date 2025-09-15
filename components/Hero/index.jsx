@@ -57,7 +57,7 @@ const Hero = () => {
 </div>
 
                             <div className="z-20 flex justify-center items-center flex-col">
-                                <Button key={''} text={'Download My CV'} download  className='my-5' classNameBTN={'px-6 py-3'} href={'/downloads/my.cv.pdf'}/>
+                                <Button key={''} text={'Download My CV'} download  className='my-5' classNameBTN={'px-6 py-3'} href={'/downloads/My.cv.pdf'}/>
                                 <Socials className='my-5'/>
                             </div>
                             </div>

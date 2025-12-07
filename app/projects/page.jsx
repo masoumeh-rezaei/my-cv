@@ -4,6 +4,7 @@ import imgResturant from '../../public/Images/projectResturant2.png'
 import imgTodo from '../../public/Images/project.todo.png'
 import imgExpensse from '../../public/Images/project.expensse.png'
 import OCR from '../../public/Images/Screenshot 2025-07-30 131108.png'
+import mashop from '../../public/Images/mashop.png'
 import imgCar from '../../public/Images/project-.png'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -38,6 +39,33 @@ const projects = () => {
         },
         {
             id:1,
+            img:mashop,
+            name:'MASHOP',
+            tools:[
+                {
+                    id:1,
+                    name:'next',
+                },
+                {
+                    id:2,
+                    name:'TailwindCss',
+                },
+                {
+                    id:3,
+                    name:'zustand',
+                },
+                {
+                    id:4,
+                    name:'Typescript',
+                },
+
+            ],
+            githubLink:'https://github.com/masoumeh-rezaei/e-commerce-store',
+            projectLink:'https://e-commerce-store-mashop.vercel.app/',
+
+        },
+        {
+            id:2,
             img:imgPortfilo,
             name:'Portfilo',
             tools:[
@@ -56,7 +84,7 @@ const projects = () => {
         
         },
         {
-            id:2,
+            id:3,
             img:imgResturant,
             name:'Resturant',
             tools:[
@@ -75,7 +103,7 @@ const projects = () => {
            
         },
         {
-            id:3,
+            id:4,
             img:imgTodo,
             name:'TODo List',
             tools:[
@@ -94,7 +122,7 @@ const projects = () => {
         
         },
         {
-            id:4,
+            id:5,
             img:imgExpensse,
             name:'Expense Calculator',
             tools:[
@@ -113,7 +141,7 @@ const projects = () => {
            
         },
         {
-            id:5,
+            id:6,
             img:imgCar,
             name:'Car Gallery',
             tools:[
@@ -131,6 +159,7 @@ const projects = () => {
             projectLink:'https://car-gallery-masoumehweb.vercel.app/',
            
         },
+
         
     ]
     return (
